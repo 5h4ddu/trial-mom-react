@@ -1,0 +1,33 @@
+.container {
+  padding: 40px;
+  font-family: Arial;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 15px;
+  background: green;
+  color: white;
+  border: none;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
