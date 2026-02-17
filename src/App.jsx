@@ -13,7 +13,7 @@ function App() {
 
       <div className="nav">
         <button onClick={() => setPage("dashboard")}>Dashboard</button>
-        <button onClick={() => setPage("trial")}>Add Trial</button>
+        <button onClick={() => setPage("trial")}>Create Report</button>
         <button onClick={() => setPage("mom")}>Add MOM</button>
       </div>
 
